@@ -69,7 +69,7 @@ column_c = ["","","","","",max,min]
 cleaned_csv = zip(column_a, column_b, column_c)
 
 #set variable for output file
-output_path = os.path.join("./Resources/Financial_Analysis.csv")
+output_path = os.path.join("./Analysis/Financial_Analysis.csv")
 
 #open output file
 with open(output_path, "w") as csvfile:

@@ -80,7 +80,7 @@ column_c.append("")
 cleaned_csv = zip(column_a, column_b, column_c)
 
 #set variable for output file
-output_path = os.path.join("Election_Results.csv")
+output_path = os.path.join("./Analysis/Election_Results.csv")
 
 #open output file
 with open(output_path, "w") as csvfile:
